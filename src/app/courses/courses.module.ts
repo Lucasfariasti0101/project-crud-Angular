@@ -5,9 +5,8 @@ import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses/courses.component';
 
 //Imports from Angular Material
-import { MatTableModule } from '@angular/material/table';
-import { MatCardModule } from '@angular/material/card';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { AppMaterialModule } from '../shared/app-material/app-material.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -18,9 +17,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   imports: [
     CommonModule,
     CoursesRoutingModule,
-    MatTableModule,
-    MatCardModule,
-    MatToolbarModule
+    AppMaterialModule,
+    SharedModule
   ]
 })
 export class CoursesModule { }

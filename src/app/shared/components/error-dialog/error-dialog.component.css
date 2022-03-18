@@ -1,0 +1,25 @@
+.card {
+    max-width: 400px;
+  }
+.card img {
+    width: 100%;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header .title {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content p {
+    font-size: 18px;
+}
